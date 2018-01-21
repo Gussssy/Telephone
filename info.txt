@@ -1,0 +1,33 @@
+Stages: 
+
+
+
+
+ALGORITHM
+- read number
+- initial checks:
+	early hyphen/ 
+	unclosed brackets/
+	invalid charachters
+- clean up, remove: 
+	brackets, hyphens, whitespace
+- count valid didgits
+- [CAN A NUMBER FIT REGEXPRESSION FOR A NUMBER BUT NOT BE ONE OF THOSE NUMBERS?]
+- ...
+- reset booleans and string for next read 
+-call next read
+	
+
+
+
+
+
+
+REGULAR EXPERESSION
+Initial Codes:
+1) /(0508)(\d|[A-Z]){6}/
+
+Area Codes: 
+
+
+
