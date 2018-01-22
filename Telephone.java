@@ -68,12 +68,12 @@ public class Telephone{
     	//TEST BELOW
     	//String test = number.trim......
 		
-		if(number.matches("[\\(]?(0508)[\\)]?\\s[0-9]{3}\\s[0-9]{3}")){
+		if(number.matches("([\\(]?(0508)[\\)]?)((\\s[0-9]{3}\\s[0-9]{3})|([0-9]{6}))")){
 			System.out.println("Found 0508 number: " + number);
 			isValid = true;
 			type = 1;
 		}
-		if(number.matches("[\\(]?(0508)[\\)]?\\s[A-Z]{6,9}")){
+		if(number.matches("[\\(]?(0508)[\\)]?[\\s]?[A-Z]{6,9}")){
 			System.out.println("Found 0508 number");
 			isValid = true;
 			type = 2;
