@@ -13,12 +13,12 @@ public static String input;
 		boolean exit = false;
 		Telephone telephone = new Telephone();
 
-		System.out.println("\n\n\nTELEPHONE\n\n\nHello and welcome friend\n\n\n");
+		//System.out.println("\n\n\nTELEPHONE\n\n\nHello and welcome friend\n\n\n");
 		System.out.println("- - - - - - - - - - - - - - - ");
 		
 
 		//Read a word and send to telephone, exit if input is EXIT
-		while(exit == false){
+		while(exit == false && scan.hasNextLine()){
 		input = scan.nextLine();
 		if (input.equals("EXIT"))exit = true;
 		//System.out.println("Input: " + input);
@@ -31,6 +31,7 @@ public static String input;
 
 		/////////////////////////////////////////////////////////////////
 		}
+		System.out.println(telephone.book);
 	
 	}
 }
